@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="app">
-        <example-component></example-component>
+        @yield('content')
     </div>
     <link href="{{ asset('js/app.js') }}" rel="stylesheet">
 </body>
